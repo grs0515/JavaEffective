@@ -77,6 +77,7 @@ public class RunTests {
 	 * @param args
 	 */
 	public static void ofExceptionTest2(String args) {
+		@SuppressWarnings("unused")
 		int tests = 0;
 		int passed = 0;
 		for (Method m : forName(args)) {
